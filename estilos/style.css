@@ -13,7 +13,7 @@ html,body{
 }
 
 body{
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo-marmore.webp') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -40,4 +40,22 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#sociais{
+    text-align: right;
+    padding: 50px;
+}
+
+section#sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+}
+
+section#sociais img:hover{
+    transform: translate(-10px, -10px);
+    transition: transform .7s;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.11);
 }
