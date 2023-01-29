@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sriracha&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+img{
+    width: 100vw;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    text-decoration: none;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+a:hover{
+    opacity: 1;
+}
